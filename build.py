@@ -31,16 +31,16 @@ print(Fore.RED + '''
 	''')
 input(Fore.GREEN + "Нажмите Enter")
 os.system('clear')
-print(Fore.MAGENTA + ' _____    _   _   _   _ ' + Fore.YELLOW + ' __  __   ______ ')
-print(Fore.MAGENTA + '|  __ \  | \ | | | \ | |' + Fore.YELLOW + '|  \/  | |  ____|')
-print(Fore.MAGENTA + '| |  | | |  \| | |  \| |' + Fore.YELLOW + '| \  / | | |__   ')
-print(Fore.MAGENTA + '| |  | | | . ` | | . ` |' + Fore.YELLOW + '| |\/| | |  __|  ')
-print(Fore.MAGENTA + '| |__| | | |\  | | |\  |' + Fore.YELLOW + '| |  | | | |____ ')
-print(Fore.MAGENTA + '|_____/  |_| \_| |_| \_|' + Fore.YELLOW + '|_|  |_| |______|')
+print(Fore.MAGENTA + '╭━━┳╮╱╱╭╮' + Fore.YELLOW + '╭━╮╭━┳━━┳━━┳━━╮')
+print(Fore.MAGENTA + '┃╭╮┃╰╮╭╯┃' + Fore.YELLOW + '╰╮╰╯╭┻┫┣┻┫┣┻┫┣╯')
+print(Fore.MAGENTA + '┃╰╯╰╮╰╯╭╯' + Fore.YELLOW + '╱╰╮╭╯╱┃┃╱┃┃╱┃┃')
+print(Fore.MAGENTA + '┃╭━╮┣╮╭╯' + Fore.YELLOW + '╱╭╯╰╮╱┃┃╱┃┃╱┃┃')
+print(Fore.MAGENTA + '┃╰━╯┃┃┃' + Fore.YELLOW + '╭╯╭╮╰┳┫┣┳┫┣┳┫┣╮')
+print(Fore.MAGENTA + '╰━━━╯╰╯' + Fore.YELLOW + '╰━╯╰━┻━━┻━━┻━━╯')
 print(Fore.YELLOW + '-----------------------------------------')
-print(Fore.YELLOW + '|' + Fore.BLUE +  " Telegram Deanonymization bot builder  " + Fore.YELLOW + '|')
-print(Fore.YELLOW + '|' + Fore.BLUE +  "       Developer: @lamer112311         " + Fore.YELLOW + '|')
-print(Fore.YELLOW + '|' + Fore.BLUE +  "        Channel: cutt.ly/CyberPuffin   " + Fore.YELLOW + '|')
+print(Fore.YELLOW + '|' + Fore.BLUE +  " Telegram fake dnn bot builder  " + Fore.YELLOW + '|')
+print(Fore.YELLOW + '|' + Fore.BLUE +  "       Developer: @DDoSignals         " + Fore.YELLOW + '|')
+print(Fore.YELLOW + '|' + Fore.BLUE +  "        Channel: @Anti_furru   " + Fore.YELLOW + '|')
 print(Fore.YELLOW + '-----------------------------------------')
 userid = input(Fore.RED +  "Введите свой Telegram ID > ")
 token = input(Fore.BLUE +  "Введите токен бота > ")
@@ -75,13 +75,13 @@ print("Бот запущен!")
 
 @bot.message_handler(commands=['start'])
 def start(message):
-	bot.send_message(message.chat.id, '''👋 Привет! 👋
-		Это бот, который, может показать информацию по номеру телефона!
+	bot.send_message(message.chat.id, '''Привет!
+		Это бот, который, может показать информацию по номеру телефона
 	Для поиска информации, введите команду /getinfo''') 
 	
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: cutt.ly/CyberPuffin') 
+	bot.send_message(message.chat.id, 'Автор скрипта: @DDoSignals. Канал: @Anti_furru') 
 
 @bot.message_handler(commands=['getinfo'])
 def start(message):
